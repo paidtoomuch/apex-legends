@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\hooking\hde32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\hooking\hde64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\hooking\memory_hook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\libraries\ImGui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\libraries\ImGui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\libraries\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cheat\game\sdk.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\internal\utility.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\internal\core.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\libraries\xor\xor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\libraries\lazyimporter\lazyimporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\hooking\hde32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\hooking\hde64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\hooking\memory_hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\hooking\table32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\hooking\table64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\render\present.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\render\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\internal\updater\updater.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\internal\actor\actors.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\libraries\ImGui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\libraries\ImGui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\libraries\ImGui\imgui_impl_dx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\libraries\ImGui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\libraries\ImGui\imgui_xorstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\libraries\ImGui\stb_rect_pack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\libraries\ImGui\stb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\libraries\ImGui\stb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="impl\libraries\shellcode.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
